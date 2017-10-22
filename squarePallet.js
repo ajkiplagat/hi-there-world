@@ -1,6 +1,6 @@
 
 
-var w = 150;  // make width/2 to make four 
+var w = 150;  
 var h = 150;
 var bar =w*2; //distance between squares 
 var tri = 30;
@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
 
-// CODE to draw a mesh using translate 
+// CODE to draw mesh using translate 
 
   for(var i = 0 ; i < width ; i +=bar) {
 	 for(var j = 0 ; j < height ; j+=bar) {
